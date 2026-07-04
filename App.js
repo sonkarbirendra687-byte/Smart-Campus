@@ -1,10 +1,8 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import Login from './src/screens/Login'; // Humne Login file ko yahan connect kiya
 
 export default function App() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Smart Campus Starting...</Text>
-    </View>
+    <Login /> // Ab ye App.js tumhari Login screen dikhayegi
   );
 }
